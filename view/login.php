@@ -37,7 +37,7 @@ session_start();
         <div class="centralizado mv0-5 grid50-50 w50">
             <a href="./cadastrar_usuario.php"
                 class="formulario__botao__secundario formulario__botao__padrao">Cadastrar</a>
-            <input type="submit" value="Logar" class="formulario__botao formulario__botao__padrao ">
+            <input type="submit" name="login" value="Logar" class="formulario__botao formulario__botao__padrao ">
         </div>
     </form>
     <script src="https://kit.fontawesome.com/df85906e6a.js" crossorigin="anonymous"></script>
