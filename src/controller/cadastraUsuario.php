@@ -8,7 +8,7 @@
     if(isset($_REQUEST['salvar'])){
         $nome = $_POST['nomeUsuario'];
         $email = $_POST['emailUsuario'];
-        $senha = password_hash($_POST['senha'], PASSWORD_BCRYPT);
+        $senha = password_hash($_POST['senhaUsuario'], PASSWORD_BCRYPT);
         $cargo = $_POST['nomePerfil'];
         $ativo = $_POST['ativo'];
 
