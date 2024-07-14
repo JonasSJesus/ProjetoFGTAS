@@ -8,13 +8,13 @@ CREATE TABLE usuario(
     email VARCHAR(100) NOT NULL,
     senha VARCHAR(100) NOT NULL,
     cargo ENUM('usuario', 'admin') NOT NULL DEFAULT 'usuario',
-    ativo ENUM('S', 'N') NOT NULL DEFAULT 'S'
+    ativo ENUM('Ativado', 'Desativado') NOT NULL DEFAULT 'Ativado'
 );
 
 CREATE TABLE solicitante(
 	id INT AUTO_INCREMENT PRIMARY KEY, 
     id_usuario INT NOT NULL,
-	tipo_pessoa ENUM('pessoa_fisica'. 'pessoa_juridica') NOT NULL,
+	tipo_pessoa ENUM('pessoa_fisica', 'pessoa_juridica') NOT NULL,
     tipo_solicitante VARCHAR(255) NOT NULL,
     identificador_unico VARCHAR(255) NOT NULL,
     forma_atendimento VARCHAR(255) NOT NULL,
