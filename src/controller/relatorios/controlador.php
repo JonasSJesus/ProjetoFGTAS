@@ -17,6 +17,5 @@ if( isset($_REQUEST['exp']) ){
 
     }
 }else {
-    echo "<script>alert('ERRO! Selecione o formato do relatório!');</script>";
     header("Location: ../../../view/relatorio.php");
 }
