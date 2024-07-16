@@ -38,6 +38,7 @@ session_start();
             <input type="submit" value="Logar" name="login" class="formulario__botao formulario__botao__padrao ">
         </div>
     </form>
+    <?php if( isset($_REQUEST['sucesso']) && $_REQUEST['sucesso'] == 0 ) echo '<script> alert("Email/Senha incorretos") </script>' ?>
     <script src="https://kit.fontawesome.com/df85906e6a.js" crossorigin="anonymous"></script>
     <script src="./js/olho.js"></script>
 </body>
