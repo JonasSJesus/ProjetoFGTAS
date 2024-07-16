@@ -18,7 +18,7 @@ $controle->protecao();
     <header class="grid100  menu ">
         <nav class="w100 direita pv1">
             <?php
-            if (isset($_SESSION['nome']) == 'admin') {
+            if ($_SESSION['nome'] == 'admin') {
                 ?>
                 <a href="admin.php" class="menu__botao">Admin</a>
                 <?php
@@ -29,16 +29,7 @@ $controle->protecao();
     </header>
     <form method="post" class="formulario centralizado">
         <header class="grid100  menu ">
-            <nav class="w100 direita pv1">
-                <?php
-                if (isset($_SESSION['nome']) == 'admin') {
-                    ?>
-                    <a href="admin.php" class="menu__botao">Admin</a>
-                    <?php
-                }
-                ?>
-                <a href="usuario.php" class="menu__botao">Usuário</a>
-            </nav>
+            
         </header>
         <fieldset class="formulario__campo w80">
             <legend class="formulario__subtitulo">Informações sobre o mercado de trabalho (SIP)</legend>

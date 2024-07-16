@@ -19,7 +19,7 @@ $controle->protecao();
     <header class="grid100  menu ">
         <nav class="w100 direita pv1">
             <?php
-            if (isset($_SESSION['nome']) == 'admin') {
+            if ($_SESSION['nome'] == 'admin') {
                 ?>
                 <a href="admin.php" class="menu__botao">Admin</a>
                 <?php
