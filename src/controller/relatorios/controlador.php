@@ -17,5 +17,5 @@ if( isset($_REQUEST['exp']) ){
 
     }
 }else {
-    header("Location: ../../../view/relatorio.php");
+    header("Location: ../../../view/relatorio.php?escolha=0");
 }
