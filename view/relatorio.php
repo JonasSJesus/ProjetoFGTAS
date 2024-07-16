@@ -101,6 +101,7 @@ $controle->protecao();
             <input class="formulario__botao formulario__botao__padrao" type="submit" value="Exportar">
         </div>
     </form>
+    <?php if($_REQUEST['escolha'] == 0) echo '<script> alert("escolha uma formato valido para importação!") </script>' ?>
     <script src="https://kit.fontawesome.com/df85906e6a.js" crossorigin="anonymous"></script>
 </body>
 
