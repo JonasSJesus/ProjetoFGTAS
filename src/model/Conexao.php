@@ -3,10 +3,10 @@
 abstract class Conexao
 {
     // Insira os dados do servidor do banco aqui
-    private $host = '';
-    private $dbname = '';
-    private $usuario = '';
-    private $senha = '';
+    private $host = 'SEU_HOST';
+    private $dbname = 'SEU_BANCO';
+    private $usuario = 'SEU_USUARIO';
+    private $senha = 'SUA_SENHA';
     protected $pdo;
 
     public function __construct()

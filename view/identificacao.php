@@ -24,6 +24,7 @@ $controle->protecao();
                 <?php
             }
             ?>
+            <a href="../src/controller/deslogando.php" class="menu__botao__secundario">Deslogar</a>
             <a href="usuario.php" class="menu__botao">Usuário</a>
         </nav>
     </header>
