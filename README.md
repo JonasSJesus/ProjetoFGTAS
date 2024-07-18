@@ -1,6 +1,7 @@
 # Cadastro de atendimentos
 
 - Projeto desenvolvido no 2° semestre de 2024 como A3 da matéria de programação de soluções computacionais para a Fundação Gaúcha de Trabalho e Assistência Social (FGTAS)
+- Usuario e Senha de testes usado para demonstração do projeto no ar (https://projetofgtas.rf.gd/) || Login: teste@a3.com \\ Senha: 123456
 
 # Objetivo
 - Transformar um microsoft forms que é utilizado para o registro de atendimentos numa página web que gere relatórios para a análise e persistência dos dados
